@@ -15,6 +15,7 @@ jobs:
         with:
           node-version: 14
       - run: npm list -g --depth=0
+      - run: npm parcel build
     
 
 
